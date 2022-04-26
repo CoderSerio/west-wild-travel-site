@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake</title>
+    <link rel="stylesheet" href="css/lake.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/birds.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <script src="js/switchMode.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lake.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery-3.3.1.js" data-type="attach"></script>
+    <script src="js/common.js" data-type="attach"></script>
+    <script src="js/tools.js" type="text/javascript"></script>
+
+</head>
+
+<body class="pageLoading">
+
+<nav class='gnav'>
+    <div class='gnav-wrap'>
+        <div class='gnav-container'>
+            <ul class='gnav-main'>
+                <li class='gnav-main__item'>
+                    <a href='sea.html' class='gnav-anc'>
+                        <img class='gnav-main__title' src='images/common/title/sea_letter.png' id='ocean' alt='海'>
+                        <span class='gnav-main__description'>东指羲和能走马 海尘新生石山下</span>
+                    </a>
+                </li>
+                <li class='gnav-main__item'>
+                    <a href='lake.html' class='gnav-anc'>
+                        <img class='gnav-main__title' src='images/common/title/lake_letter.png' id='lake' alt='湖'>
+                        <span class='gnav-main__description'>沙漠回看清禁月 湖山应梦武林春</span>
+                    </a>
+                </li>
+
+                <li class='gnav-main__item'>
+                    <a href='river.html' class='gnav-anc'>
+                        <img class='gnav-main__title' src='images/common/title/river_letter.png' id='river' alt='川'>
+                        <span class='gnav-main__description'>百川东到海 何时复西归</span>
+                    </a>
+                </li>
+
+                <li class='gnav-main__item'>
+                    <a href='mountain.html' class='gnav-anc'>
+                        <img class='gnav-main__title' src='images/common/title/mountain_letter.png' id='mountain' alt='山'>
+                        <span class='gnav-main__description'>会当凌绝顶 一览众山小</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class='gnav-news'>
+            <ul class='gnav-news-list'>
+                <li class='gnav-news-list__item'>
+                    <a href='sea.html' class='anc-hover anc-hover_visible'>
+                        <figure class='gnav-news-list__image'>
+                            <img src='images/home/sea.jpg' alt='海'>
+                        </figure>
+                        <h2 class='gnav-news__title'>海阔凭鱼跃，天高任鸟飞。</h2>
+                    </a>
+                </li>
+
+                <li class='gnav-news-list__item'>
+                    <a href='river.html' class='anc-hover anc-hover_visible'>
+                        <figure class='gnav-news-list__image'>
+                            <img src='images/common/mountain_hua_01.jpg ' alt='川'>
+                        </figure>
+                        <h2 class='gnav-news__title'>川从陕路去，河绕华阴流。</h2>
+                    </a>
+                </li>
+                <li class='gnav-news-list__item'>
+                    <a href='lake.html' class='anc-hover anc-hover_visible'>
+                        <figure class='gnav-news-list__image'>
+                            <img src='images/home/lake.JPG' alt='湖'>
+                        </figure>
+                        <h2 class='gnav-news__title'>八月白露降，湖中水方老。</h2>
+                    </a>
+                </li>
+                <li class='gnav-news-list__item'>
+                    <a href='mountain.html' class='anc-hover anc-hover_visible'>
+                        <figure class='gnav-news-list__image'>
+                            <img src='images/home/mountain.jpg' alt='山'>
+                        </figure>
+                        <h2 class='gnav-news__title'>暮从碧山下，山月随人归。</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+<header class='header'>
+    <div class='header-wrap'>
+        <div id="switch"   >
+            <img src='./images/common/moon.svg'  id='moon' alt='themeIcon' class='themeIcon'>
+        </div>
+        <div class='header-reserve'>
+            <a href='#' class='jp'>回到顶部</a>
+        </div>
+    </div>
+</header>
+
+<h1 class='head-logo'>
+    <a href='./main.html'>
+        <img class='head-logo_img' src='./images/home/head_logo.png' id='head_logo' alt='hhhhh'>
+    </a>
+</h1>
+
+
+
+    <main id="state" class="main">
+        <!-- page_head -->
+        <div class="page_head">
+            <!-- <h2 class="page_head_title">湖</h2> -->
+
+            <div class="bird-container bird-container--one">
+                <div class="bird bird--one"></div>
+            </div>
+            
+            <div class="bird-container bird-container--two">
+                <div class="bird bird--two"></div>
+            </div>
+            
+            <div class="bird-container bird-container--three">
+                <div class="bird bird--three"></div>
+            </div>
+            
+            <div class="bird-container bird-container--four">
+                <div class="bird bird--four"></div>
+            </div>
+            <div class="page_head_title"><img src="./images/common/title/lake_letter.png" id="lake_letter" alt=""></div>
+        </div>
+
+        <!-- contents -->
+        <div class="contents">
+            <!-- introduction -->
+            <div class="introduction">
+                <div class="introduction_img"><img src="./images/lake/lake_intro.JPG" alt=""></div>
+            </div>
+
+            <!-- lake轮播图 -->
+            <ul class="lake_img">
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_01.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_02.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_03.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_04.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_01.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_02.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_03.jpg" alt="">
+                    </picture>
+                </li>
+                <li class="lake_img_item">
+                    <picture>
+                        <img src="./images/lake/lake_swiper/lake_04.jpg" alt="">
+                    </picture>
+                </li>
+            </ul>
+
+            <!-- lake_menu -->
+            <section class="lake_menu">
+                <h3 class="lake_menu_title">【九州·五大湖】</h3>
+                <p class="main_body_text">
+                    中国湖泊众多，共有湖泊24800多个，其中面积在1平方公里以上的天然湖泊就有2800多个。 湖泊数量虽然很多，但在地区分布上很不均匀。总的来说，东部季风区，特别是长江中下游地区， 分布着中国最大的淡水湖群；西部以青藏高原湖泊较为集中，多为内陆咸水湖。 外流区域的湖泊都与外流河相通，湖水能流进也能排出，含盐分少，称为淡水湖，也称排 水湖。中国著名的淡水湖有鄱阳湖、洞庭湖、太湖、洪泽湖、巢湖等。
+                </p>
+                <p class="main_body_text">
+                    内流区域的湖泊大多为内流河的归宿，湖水只能流进，不能流出，又因蒸发旺盛，盐分较 多形成咸水湖，也称非排水湖，如中国最大的湖泊青海湖以及海拔较高的纳木错湖等。
+                </p>
+                <h4>【* 中国的湖泊按成因有】</h4>
+                <div class="lake_menu_list">
+                    <dl>
+                        <dt>河迹湖</dt>
+                        <dd>如湖北境内长江沿岸的湖泊</dd>
+                        <dt>海迹湖</dt>
+                        <dd>即睸湖，如西湖</dd>
+                        <dt>溶蚀湖</dt>
+                        <dd>如云贵高原区石灰岩溶蚀所形成的湖泊</dd>
+                        <dt>冰蚀湖</dt>
+                        <dd>如青藏高原区的一些湖泊</dd>
+                        <dt>构造湖</dt>
+                        <dd>如青海湖、鄱阳湖、洞庭湖、滇池等</dd>
+                        <dt>火口湖</dt>
+                        <dd>如长白山天池</dd>
+                        <dt>堰塞湖</dt>
+                        <dd>如镜泊湖等</dd>
+                    </dl>
+                </div>
+            </section>
+
+            <!-- lake_sec -->
+            <section class="lake_sec separator_line">
+                <section class="lake_sec_text">
+                    <h3 class="lake_menu_title">青海湖</h3>
+                    <p class="main_body_text">
+                        青海湖，藏语名为“措温布”（意为“青色的海”）。位于青藏高原东北部、青海省境 内，中国最大的内陆湖。由祁连山脉的大通山、日月山与青海南山之间的断层陷落形成。 青海湖是中国内陆最大咸水湖，是维系青藏高原东北部生态安全的重要水体。 2012年7月30日，青海省气象科学研究所最新的遥感监测结果显示，青海湖面积持续8年增 大。2014年10月20日9时50分，青海湖海心山北侧出现“龙吸水”壮观场景。
+                    </p>
+                </section>
+
+                <ul class="image_multi">
+                    <li><img src="./images/lake/lake_img/lake_qinghai_01.png" alt=""></li>
+                    <li><img src="./images/lake/lake_img/lake_qinghai_02.png" alt=""></li>
+                    <li><img src="./images/lake/lake_img/lake_qinghai_03.png" alt=""></li>
+                    <li><img src="./images/lake/lake_img/lake_qinghai_04.png" alt=""></li>
+                </ul>
+            </section>
+
+            <section class="lake_sec">
+                <section class="lake_sec_text">
+                    <h3 class="lake_menu_title">鄱阳湖</h3>
+                    <p class="main_body_text">
+                        鄱阳湖，古称彭蠡、彭蠡泽、彭泽，位于江西省北部，地处九江、南昌、上饶三市，是中国第一大淡水湖，也是中国第二大湖，仅次于青海湖。 鄱阳湖主要由赣江、修河、信江、饶河、抚河等水源供给，自南向北在九江市湖口县石钟山附近汇入长江。 鄱阳湖在调节长江水位、涵养水源、改善当地气候和维护周围地区生态平衡等方面都起着巨大的作用。
+                    </p>
+                </section>
+
+                <ul class="image_multi">
+                    <li class="image_multi_wide"><img src="./images/lake/lake_img/lake_fanyang_01.png" alt=""></li>
+                    <li class="image_multi_wide"><img src="./images/lake/lake_img/lake_fanyang_02.png" alt=""></li>
+                </ul>
+            </section>
+
+            <section class="lake_sec">
+                <section class="lake_sec_text">
+                    <h3 class="lake_menu_title">洞庭湖</h3>
+                    <p class="main_body_text">
+                        洞庭湖，古称云梦、九江和重湖，处于长江中游荆江南岸，跨岳阳、汩罗、湘阴、望城、益 阳、沅江、汉寿、常德、津市、安乡和南县等县市。洞庭湖之名，始于春秋、战国时期，因 湖中洞庭山（即今君山）而得名。洞庭湖北纳长江的松滋、太平、藕池、调弦四口来水，南 和西接湘、资、沅、澧四水及汨罗江等小支流，由岳阳市城陵矶注入长江。洞庭湖古代曾号 称“八百里洞庭”。洞庭湖是长江流域重要的调蓄湖泊，具强大蓄洪能力，曾使长江无数次的 洪患化险为夷，江汉平原和武汉三镇得以安全渡汛。洞庭湖是历史上重要的战略要地、中国 传统文化发源地，湖区名胜繁多，以岳阳楼为代表的历史胜迹是重要的旅游文化资源。也是
+                        中国传统农业发祥地，是著名的鱼米之乡，是湖南省乃至全国最重要的商品粮油基地、水产 和养殖基地。
+                    </p>
+                </section>
+
+                <ul class="image_multi">
+                    <li><img src="./images/lake/lake_img/lake_dongting_01.png" alt=""></li>
+                    <li><img src="./images/lake/lake_img/lake_dongting_02.png" alt=""></li>
+                </ul>
+            </section>
+
+            <section class="lake_sec">
+                <section class="lake_sec_text">
+                    <h3 class="lake_menu_title">太湖</h3>
+                    <p class="main_body_text">
+                        太湖位于长江三角洲的南缘，古称震泽、具区，又名五湖、笠泽，是中国五大淡水湖之一， 位居第三，位于江苏省南部，北临江苏无锡，南濒浙江湖州，西依江苏常州、江苏宜兴，东 近江苏苏州。太湖湖泊面积2427.8平方公里，水域面积为2338.1平方公里，湖岸线全长 393.2公里。其西和西南侧为丘陵山地，东侧以平原及水网为主。太湖水系呈由西向东泄泻 之势，平均年出湖径流量为75亿立方米，蓄水量为44亿立方米。太湖岛屿众多，有50多个， 其中18个岛屿有人居住。
+                    </p>
+                </section>
+                <ul class="image_multi">
+                    <li><img src="./images/lake/lake_img/lake_tai_01.jpg" alt=""></li>
+                    <li><img src="./images/lake/lake_img/lake_tai_02.JPG" alt=""></li>
+                    <li><img src="./images/lake/lake_img/lake_tai_03.JPG" alt=""></li>
+                    <li><img src="./images/lake/lake_img/lake_tai_04.JPG" alt=""></li>
+                </ul>
+            </section>
+
+            <section class="lake_sec">
+                <section class="lake_sec_text">
+                    <h3 class="lake_menu_title">呼伦湖</h3>
+                    <p class="main_body_text">
+                        呼伦湖又名呼伦池、达赉湖、达赉诺尔，与贝尔湖互为姊妹湖。蒙古语意为“海一样的湖”。 历史曾称大泽、俱轮泊、阔连海子、虎图泽、玄寞池、库楞湖等。是北方众多游牧民族的主 要发祥地，东胡、匈奴、鲜卑、室韦、回纥、突厥、契丹、女真、蒙古等民族曾繁衍生息于 此。是内蒙古第一大湖、东北地区第一大湖、中国第五大湖、第四大淡水湖、亚洲中部干旱 地区最大淡水湖，为构造成因的矿化度受环境影响较大的淡水湖。呼伦湖地处呼伦贝尔大草 原腹地，素有“草原明珠”、“草原之肾”之称， 在区域生态环境保护中具有特殊地位，对维系 呼伦贝尔大草原生物多样性和丰富动植物资源具有十分重要的作用。呼伦湖及其周边水系于
+                        2002年1月被列入《拉姆萨尔公约》国际重要湿地名录，2002年11月被批准加入联合国教科 文组织世界生物圈保护区网络。
+                    </p>
+                </section>
+
+                <ul class="image_single">
+                    <li class="image_multi_wide"><img src="./images/lake/lake_img/lake_hulun_01.jpg" alt=""></li>
+                </ul>
+            </section>
+        </div>
+
+
+    </main>
+
+    <!-- footer -->
+    <footer id="global-footer">
+        <div class="container">
+            <p class="footer-text">九州山海志 | 中国山海图鉴<br> THE LANDSCAPE OF CHINA</p>
+            <img class="footer_img" src="./images/common/footer_icon.png" alt="footer_icon">
+        </div>
+    </footer>
+
+    <div id="loader">
+        <div id="loadBar" class="animated slideInLeft"></div>
+    </div>
+
+    <div class="scrollIndicator"></div>
+
+</body>
+
+
+
+</html>
