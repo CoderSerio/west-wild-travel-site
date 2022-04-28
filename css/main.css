@@ -264,7 +264,7 @@ body {
     font-family: fz;
     letter-spacing: 0.2em;
     -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
+    /* -ms-writing-mode: tb-rl; */
     writing-mode: vertical-rl;
     -webkit-font-feature-settings: normal;
     font-feature-settings: normal;
@@ -367,9 +367,9 @@ body {
 .home-main {
     font-family: fz;
     letter-spacing: 0.2em;
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
+    /* -webkit-writing-mode: vertical-rl; */
+    /* -ms-writing-mode: tb-rl; */
+    /* writing-mode: vertical-rl; */
     -webkit-font-feature-settings: normal;
     font-feature-settings: normal;
     position: absolute;
@@ -377,6 +377,15 @@ body {
     left: calc((40px + 4vw) * 2);
     z-index: 1;
 
+}
+
+.main-title,
+.sub-title {
+    font-size: 5rem;
+    color: #000;
+}
+.sub-title {
+    font-size: 3rem;
 }
 
 .home-main h1,
@@ -390,11 +399,11 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    .home-main {
+    /* .home-main {
         -webkit-writing-mode: lr-tb;
         -ms-writing-mode: lr-tb;
         writing-mode: lr-tb;
-    }
+    } */
 }
 
 @media screen and (max-width: 1200px) {
@@ -434,13 +443,13 @@ body {
 
 @media screen and (max-width: 1200px) {
     .home-main-catch {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 }
 
 @media screen and (max-width: 992px) {
     .home-main-catch {
-        font-size: 2rem;
+        font-size: 2.4rem;
         text-align: center;
     }
 }
@@ -449,11 +458,27 @@ body {
     .home-main-catch {
         line-height: 2;
     }
+    .main-title {
+        font-size: 3rem;
+    }
+    .sub-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    .sub-title {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .home-main-catch {
-        display: none;
+        /* display: none; */
+        font-size: 2rem;
+    }
+    .sub-title {
+        font-size: 1.5rem;
     }
 }
 
@@ -484,10 +509,9 @@ body {
 }
 
 .home-main-btn a {
-    width: 40px;
+    /* width: 40px; */
+    width: 100%;
     padding: 15px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     border: 2px solid white;
     border-radius: 5px;
