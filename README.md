@@ -1,32 +1,37 @@
-# 九州山海志
+# 川西木结构民居文化外宣网站
 
-## 项目背景
+#### 介绍
+中国大学生创新创业训练项目——川西木结构民居文化外宣网站，好！
 
-九州山海志项目的发起，受国内外极简风格网站启发，结合国内著名山水风景，打造了一个具有中国特色的极简风景网站.
+#### 软件架构
+软件架构说明
 
-本项目分为四个版块，选取中国著名的风景名胜，分别从山河湖海四个板块介绍了祖国的壮丽河山。
 
-## 演示地址
+#### 安装教程
 
-https://landscape.web.cloudendpoint.cn/main.html
+1.  xxxx
+2.  xxxx
+3.  xxxx
 
-## 技术选型
+#### 使用说明
 
-HTML CSS JS 原生三件套
+1.  xxxx
+2.  xxxx
+3.  xxxx
 
-jQuery
+#### 参与贡献
 
-Swiper插件
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
 
-animate动画库
 
-## 项目亮点
+#### 特技
 
-- ### **响应式布局**
-
-项目内包含了多种网页布局，如三字形布局、工字形布局等，且都使用响应式的方式实现，从而能够很好的适应多端设备。
-
-- ### **精美动画**
-
-本网站动画设计精美，注重细节，致力提升用户体验。使用jQuery.js实现的高亮动画和加载动画，使用animate.css实现的监听动画，使用Swiper-bundle实现的轮播图动画
-
+1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
+3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
