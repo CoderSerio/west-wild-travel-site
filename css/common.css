@@ -60,6 +60,7 @@ img {
         margin-bottom: 15px;
         font-size: 2vh;
     }
+
     .first_word {
         font-weight: 800;
         font-size: 4vh;
@@ -133,27 +134,28 @@ img {
 }
 
 
-/* .page_head_title {
-    font-family: "Shuei NijimiMin L";
+.page_head_title {
+    font-family: "fz";
     letter-spacing: 0.2em;
-    font-size: 2.4rem;
+    font-size: 3.6rem;
     line-height: 1.6;
     -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
     -webkit-font-feature-settings: normal;
-            font-feature-settings: normal;
+    font-feature-settings: normal;
     position: relative;
     z-index: 1;
     line-height: 1.4;
     color: black;
     letter-spacing: 0.5em;
-} */
+}
 
 @media screen and (max-width: 768px) {
     .page_head {
         padding: 8vw;
     }
+
     /* .page_head_title {
         font-size: 2rem;
     } */
@@ -239,13 +241,16 @@ img {
         margin-bottom: 100px;
         left: -8vw;
     }
+
     .introduction_img {
         border-radius: 0;
     }
+
     .introduction_text {
         max-width: 900px;
         margin: 0px auto 100px;
     }
+
     .intro_sec {
         text-indent: 25px;
     }
@@ -287,6 +292,7 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+
     .image_multi,
     .image_single {
         margin: 60px auto 0px;
@@ -376,15 +382,15 @@ img {
     font-size: 11px;
     /*color: #777;
     background-color: #111;*/
-      /* 方案一  */
+    /* 方案一  */
     background-color: #e2e1e4;
-    background-image: 
+    background-image:
         radial-gradient(closest-side, rgba(164, 203, 236, 1), rgba(235, 105, 78, 0)),
-        radial-gradient(closest-side, rgba(185, 194, 227, 1), rgba(243, 11, 164, 0)), 
-        radial-gradient(closest-side, rgba(125, 162, 206, 1), rgba(254, 234, 131, 0)), 
-        radial-gradient(closest-side, rgba(104, 149, 191, 1), rgba(170, 142, 245, 0)), 
+        radial-gradient(closest-side, rgba(185, 194, 227, 1), rgba(243, 11, 164, 0)),
+        radial-gradient(closest-side, rgba(125, 162, 206, 1), rgba(254, 234, 131, 0)),
+        radial-gradient(closest-side, rgba(104, 149, 191, 1), rgba(170, 142, 245, 0)),
         radial-gradient(closest-side, rgba(151, 167, 190, 1), rgba(248, 192, 147, 0));
-   
+
     /* 方案二*/
     /* background-color: #1c1c1d;
     background-image: 
@@ -393,13 +399,13 @@ img {
         radial-gradient(closest-side, rgb(38, 67, 87, 1), rgba(254, 234, 131, 0)), 
         radial-gradient(closest-side, rgba(17, 101, 154, 1), rgba(170, 142, 245, 0)), 
         radial-gradient(closest-side, rgb(12, 17, 39, 1), rgba(248, 192, 147, 0)); */
-    background-size: 
+    background-size:
         130vmax 130vmax,
         80vmax 80vmax,
         90vmax 90vmax,
         110vmax 110vmax,
         90vmax 90vmax;
-    background-position: 
+    background-position:
         -80vmax -80vmax,
         60vmax -30vmax,
         10vmax 10vmax,
@@ -424,56 +430,61 @@ img {
 }
 
 @keyframes movement {
-    0%, 100% {
-        background-size: 
+
+    0%,
+    100% {
+        background-size:
             130vmax 130vmax,
             80vmax 80vmax,
             90vmax 90vmax,
             110vmax 110vmax,
             90vmax 90vmax;
-        background-position: 
+        background-position:
             -80vmax -80vmax,
             60vmax -30vmax,
             10vmax 10vmax,
             -30vmax -10vmax,
             50vmax 50vmax;
     }
+
     25% {
-        background-size: 
+        background-size:
             100vmax 100vmax,
             90vmax 90vmax,
             100vmax 100vmax,
             90vmax 90vmax,
             60vmax 60vmax;
-        background-position: 
+        background-position:
             -60vmax -90vmax,
             50vmax -40vmax,
             0vmax -20vmax,
             -40vmax -20vmax,
             40vmax 60vmax;
     }
+
     50% {
-        background-size: 
+        background-size:
             80vmax 80vmax,
             110vmax 110vmax,
             80vmax 80vmax,
             60vmax 60vmax,
             80vmax 80vmax;
-        background-position: 
+        background-position:
             -50vmax -70vmax,
             40vmax -30vmax,
             10vmax 0vmax,
             20vmax 10vmax,
             30vmax 70vmax;
     }
+
     75% {
-        background-size: 
+        background-size:
             90vmax 90vmax,
             90vmax 90vmax,
             100vmax 100vmax,
             90vmax 90vmax,
             70vmax 70vmax;
-        background-position: 
+        background-position:
             -50vmax -40vmax,
             50vmax -30vmax,
             20vmax 0vmax,
@@ -487,6 +498,7 @@ img {
         margin: 100px auto 0;
         padding-top: 60px;
     }
+
     #global-footer .footer_img {
         width: 100%;
         padding-bottom: 0;
@@ -507,22 +519,27 @@ img {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     5% {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     45% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
     }
+
     55% {
         -webkit-transform: translateY(0) scaleY(1);
         transform: translateY(0) scaleY(1);
     }
+
     95% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);
     }
+
     100% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);
@@ -534,22 +551,27 @@ img {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     5% {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     45% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
     }
+
     55% {
         -webkit-transform: translateY(0) scaleY(1);
         transform: translateY(0) scaleY(1);
     }
+
     95% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);
     }
+
     100% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);

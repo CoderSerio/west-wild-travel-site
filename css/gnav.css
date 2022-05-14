@@ -570,18 +570,22 @@ label {
         -webkit-transform: translateX(-4px);
         transform: translateX(-4px);
     }
+
     25% {
         -webkit-transform: translateX(-2px);
         transform: translateX(-2px);
     }
+
     50% {
         -webkit-transform: translateX(1px);
         transform: translateX(1px);
     }
+
     75% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
     }
+
     100% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
@@ -593,18 +597,22 @@ label {
         -webkit-transform: translateX(-4px);
         transform: translateX(-4px);
     }
+
     25% {
         -webkit-transform: translateX(-2px);
         transform: translateX(-2px);
     }
+
     50% {
         -webkit-transform: translateX(1px);
         transform: translateX(1px);
     }
+
     75% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
     }
+
     100% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
@@ -616,18 +624,22 @@ label {
         -webkit-transform: translateX(4px);
         transform: translateX(4px);
     }
+
     25% {
         -webkit-transform: translateX(2px);
         transform: translateX(2px);
     }
+
     50% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
+
     75% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -35deg);
         transform: translateX(0) rotate3d(0, 0, 1, -35deg);
     }
+
     100% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -75deg);
         transform: translateX(0) rotate3d(0, 0, 1, -75deg);
@@ -639,18 +651,22 @@ label {
         -webkit-transform: translateX(4px);
         transform: translateX(4px);
     }
+
     25% {
         -webkit-transform: translateX(2px);
         transform: translateX(2px);
     }
+
     50% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
+
     75% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -35deg);
         transform: translateX(0) rotate3d(0, 0, 1, -35deg);
     }
+
     100% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -75deg);
         transform: translateX(0) rotate3d(0, 0, 1, -75deg);
@@ -662,18 +678,22 @@ label {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
     }
+
     25% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
     }
+
     50% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 0);
         transform: translateX(1px) rotate3d(0, 0, 1, 0);
     }
+
     75% {
         -webkit-transform: translateX(-2px);
         transform: translateX(-2px);
     }
+
     100% {
         -webkit-transform: translateX(-4px);
         transform: translateX(-4px);
@@ -685,18 +705,22 @@ label {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 75deg);
     }
+
     25% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
         transform: translateX(1px) rotate3d(0, 0, 1, 35deg);
     }
+
     50% {
         -webkit-transform: translateX(1px) rotate3d(0, 0, 1, 0);
         transform: translateX(1px) rotate3d(0, 0, 1, 0);
     }
+
     75% {
         -webkit-transform: translateX(-2px);
         transform: translateX(-2px);
     }
+
     100% {
         -webkit-transform: translateX(-4px);
         transform: translateX(-4px);
@@ -708,18 +732,22 @@ label {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -75deg);
         transform: translateX(0) rotate3d(0, 0, 1, -75deg);
     }
+
     25% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -35deg);
         transform: translateX(0) rotate3d(0, 0, 1, -35deg);
     }
+
     50% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, 0);
         transform: translateX(0) rotate3d(0, 0, 1, 0);
     }
+
     75% {
         -webkit-transform: translateX(2px);
         transform: translateX(2px);
     }
+
     100% {
         -webkit-transform: translateX(4px);
         transform: translateX(4px);
@@ -731,18 +759,22 @@ label {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -75deg);
         transform: translateX(0) rotate3d(0, 0, 1, -75deg);
     }
+
     25% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, -35deg);
         transform: translateX(0) rotate3d(0, 0, 1, -35deg);
     }
+
     50% {
         -webkit-transform: translateX(0) rotate3d(0, 0, 1, 0);
         transform: translateX(0) rotate3d(0, 0, 1, 0);
     }
+
     75% {
         -webkit-transform: translateX(2px);
         transform: translateX(2px);
     }
+
     100% {
         -webkit-transform: translateX(4px);
         transform: translateX(4px);
@@ -917,6 +949,7 @@ label {
         -ms-flex-preferred-size: 25%;
         flex-basis: 25%;
     }
+
     .gnav-main__item:nth-of-type(-n + 4) {
         margin-bottom: 20px;
     }
@@ -969,6 +1002,7 @@ label {
     .gnav-main__item:nth-child(4n):after {
         display: block;
     }
+
     .gnav-main__item:nth-child(4n) a:after {
         display: block;
     }
@@ -1276,22 +1310,27 @@ label {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     5% {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     45% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
     }
+
     55% {
         -webkit-transform: translateY(0) scaleY(1);
         transform: translateY(0) scaleY(1);
     }
+
     95% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);
     }
+
     100% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);
@@ -1303,22 +1342,27 @@ label {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     5% {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
     }
+
     45% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
     }
+
     55% {
         -webkit-transform: translateY(0) scaleY(1);
         transform: translateY(0) scaleY(1);
     }
+
     95% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);
     }
+
     100% {
         -webkit-transform: translateY(100%) scaleY(1);
         transform: translateY(100%) scaleY(1);

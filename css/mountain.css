@@ -9,11 +9,11 @@
 /*==============darktype====================*/
 .darktype {
     background-color: #111111;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 .darktype .main_body_text {
-    color: rgba(255,255,255,0.9)
+    color: rgba(255, 255, 255, 0.9)
 }
 
 .gnav {
@@ -64,7 +64,7 @@
     background-color: rgba(255, 255, 255, 0.03);
 }
 
-.darktype .mountain_wrap .swiper-pagination-bullet:before  {
+.darktype .mountain_wrap .swiper-pagination-bullet:before {
     background-color: #FFFFFF;
 }
 
@@ -84,17 +84,18 @@
 .darktype #global-footer {
     /* 方案二*/
     background-color: #1c1c1d;
-    background-image: 
+    background-image:
         radial-gradient(closest-side, rgba(52, 108, 156, 1), rgba(235, 105, 78, 0)),
-        radial-gradient(closest-side, rgb(48, 60, 68, 1), rgba(243, 11, 164, 0)), 
-        radial-gradient(closest-side, rgb(38, 67, 87, 1), rgba(254, 234, 131, 0)), 
-        radial-gradient(closest-side, rgba(17, 101, 154, 1), rgba(170, 142, 245, 0)), 
+        radial-gradient(closest-side, rgb(48, 60, 68, 1), rgba(243, 11, 164, 0)),
+        radial-gradient(closest-side, rgb(38, 67, 87, 1), rgba(254, 234, 131, 0)),
+        radial-gradient(closest-side, rgba(17, 101, 154, 1), rgba(170, 142, 245, 0)),
         radial-gradient(closest-side, rgb(12, 17, 39, 1), rgba(248, 192, 147, 0));
 }
 
 .darktype #global-footer .footer-text {
-    color:#ccc
+    color: #ccc
 }
+
 /*==========================================*/
 
 .mountain:before {
@@ -145,6 +146,8 @@
 
 .mountain_wrap .swiper-slide img {
     border-radius: 5px;
+    height: 183px;
+    width: 267.5px;
 }
 
 .mountain_wrap .swiper-pagination {
@@ -223,6 +226,7 @@
     .mountain_sec {
         margin: 0 auto 80px;
     }
+
     .mountain_sec_text {
         text-indent: 25px;
     }
