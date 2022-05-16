@@ -130,6 +130,15 @@ darktype
     align-items: center;
 }
 
+
+@media screen and (min-width: 769px) {
+    .river_list_item {
+        width: 1000px;
+    }
+}
+
+
+
 @media screen and (max-width: 768px) {
     .river_list_item {
         margin-bottom: 100px;
