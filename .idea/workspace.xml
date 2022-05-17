@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c1b1981-52bb-42ba-ba3f-f7add48c5eb0" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/images/home/Diaspora.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home/settlement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/lake/lake_swiper/monomer01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/lake/lake_swiper/monomer02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/lake/lake_swiper/monomer03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/lake/lake_swiper/monomer04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lake.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/landscape(animate_loaded).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test111.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Monomer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/home/monomer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/monomer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/settlement.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/settlement.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../个人主页" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +46,7 @@
       <updated>1652788651974</updated>
       <workItem from="1652788654687" duration="1107000" />
       <workItem from="1652789782530" duration="19000" />
-      <workItem from="1652789813093" duration="4095000" />
+      <workItem from="1652789813093" duration="4945000" />
     </task>
     <servers />
   </component>
