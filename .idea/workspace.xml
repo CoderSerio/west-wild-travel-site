@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c1b1981-52bb-42ba-ba3f-f7add48c5eb0" name="变更" comment="添加英文版本">
+    <list default="true" id="6c1b1981-52bb-42ba-ba3f-f7add48c5eb0" name="变更" comment="更改Monomer页面字体方向">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diasoira.html" beforeDir="false" afterPath="$PROJECT_DIR$/Diasoira.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diasoira_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/Diasoira_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Monomer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Monomer_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/Monomer_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Settlement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Settlement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Settlement_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/Settlement_en.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,7 @@
       <workItem from="1652789782530" duration="19000" />
       <workItem from="1652789813093" duration="5425000" />
       <workItem from="1653647160160" duration="14000" />
-      <workItem from="1663581052117" duration="11101000" />
+      <workItem from="1663581052117" duration="11309000" />
     </task>
     <task id="LOCAL-00001" summary="ddl中文校对">
       <created>1663585423203</created>
@@ -71,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663589438055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更改Monomer页面字体方向">
+      <created>1663592585489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663592585489</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ddl中文校对" />
     <MESSAGE value="添加英文版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加英文版本" />
+    <MESSAGE value="更改Monomer页面字体方向" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改Monomer页面字体方向" />
   </component>
 </project>
