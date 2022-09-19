@@ -8,6 +8,13 @@ body {
     transition: .6s;
 }
 
+/* .translate-btn {
+    position: fixed !important;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+} */
+
 .darktype {
     background-color: #111111;
 }
@@ -44,12 +51,35 @@ body {
 .darktype #loader div {
     background-color: #FFFFFF;
 }
+.translate-btn a {
+    font-family: fz;
+    letter-spacing: 0.2em;
+    padding: 0 15px;
+    border: 0.5px solid black;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    position: fixed;
+    right: 100px;
+    top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 9999;
+}
+
+.translate-btn:hover a {
+    background-color: black;
+    color: white;
+}
 
 
 /* common ------------------------------------*/
 .header:before {
     display: none;
 }
+
 
 @media screen and (max-width: 576px) {
     .header {
@@ -138,6 +168,8 @@ body {
     opacity: 0;
     pointer-events: none;
 }
+
+
 
 /* home --------------------------------------*/
 .home {

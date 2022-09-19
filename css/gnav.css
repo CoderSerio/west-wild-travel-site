@@ -308,7 +308,7 @@ label {
 @media screen and (max-width: 576px) {
     .header-reserve {
         position: fixed;
-        bottom: 20px;
+        top: 20px;
         right: 10px;
     }
 }
@@ -350,6 +350,39 @@ label {
     font-family: fz;
     letter-spacing: 0.1em;
 }
+
+.translate-btn {
+    font-family: fz;
+    letter-spacing: 0.2em;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    width: 40px;
+    padding: 15px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: red;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
 
 @media screen and (max-width: 576px) {
     .header-reserve a {
