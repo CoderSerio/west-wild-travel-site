@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c1b1981-52bb-42ba-ba3f-f7add48c5eb0" name="变更" comment="更改Monomer页面字体方向">
+    <list default="true" id="6c1b1981-52bb-42ba-ba3f-f7add48c5eb0" name="变更" comment="校对部分英文翻译">
+      <change afterPath="$PROJECT_DIR$/Protection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protection_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105826.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105834.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105841.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105846.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105850.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105858.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/protection/20220920105904.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Diasoira.html" beforeDir="false" afterPath="$PROJECT_DIR$/Diasoira.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Diasoira_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/Diasoira_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Monomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Monomer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Monomer_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/Monomer_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Settlement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Settlement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Settlement_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/Settlement_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
@@ -40,11 +49,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../个人主页" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/protection" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\文档\新鲜出炉的程序\frontSide\wood-structure-buildings-in-Western-Sichuan\images\protection" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\文档\新鲜出炉的程序\frontSide\wood-structure-buildings-in-Western-Sichuan\images\home" />
       <recent name="D:\文档\新鲜出炉的程序\frontSide\wood-structure-buildings-in-Western-Sichuan\images\lake\lake_swiper" />
@@ -63,7 +75,7 @@
       <workItem from="1652789813093" duration="5425000" />
       <workItem from="1653647160160" duration="14000" />
       <workItem from="1663581052117" duration="11309000" />
-      <workItem from="1663635433174" duration="772000" />
+      <workItem from="1663635433174" duration="8068000" />
     </task>
     <task id="LOCAL-00001" summary="ddl中文校对">
       <created>1663585423203</created>
@@ -86,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663592585489</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="校对部分英文翻译">
+      <created>1663636437679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663636437679</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +126,7 @@
     <MESSAGE value="ddl中文校对" />
     <MESSAGE value="添加英文版本" />
     <MESSAGE value="更改Monomer页面字体方向" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改Monomer页面字体方向" />
+    <MESSAGE value="校对部分英文翻译" />
+    <option name="LAST_COMMIT_MESSAGE" value="校对部分英文翻译" />
   </component>
 </project>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保护与传承</title>
+    <link rel="stylesheet" href="css/mountain.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/birds.css">
+
+    <script src="js/switchMode.js" data-type="attach"></script>
+    <script src="js/swiper-bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/mountain.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common.js" data-type="attach"></script>
+    <script src="js/jquery-3.3.1.js" data-type="attach"></script>
+</head>
+
+<body class="pageLoading">
+<h1 class='head-logo'>
+    <a href='./index.html'>
+        <span>川西民居</span>
+    </a>
+</h1>
+
+<div class='translate-btn'>
+    <a href='./Protection_en.html' >En</a>
+</div>
+
+<main id="state" class="main">
+    <!-- page_head -->
+    <div class="page_head">
+        <!-- <h2 class="page_head_title">山</h2> -->
+
+        <div class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
+        </div>
+
+        <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+
+        <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+
+        <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div>
+        <div class="page_head_title"><span>保护与传承</span></div>
+    </div>
+
+    <!-- contents -->
+    <div class="contents">
+        <!-- introduction -->
+        <div class="introduction">
+            <div class="introduction_img"><img src="./images/mountain/mountain_img/mountain_three_3.jpg" alt=""></div>
+        </div>
+        <!-- introduction_text -->
+        <div class="introduction_text">
+            <section class="intro_sec">
+                <p class="main_body_text">
+                    <span class="first_word">“青瓦</span>出檐长，穿斗白粉墙，宅前敞院坝，四周立檐廊”，独特的穿斗木结构、冷滩瓦工艺、大出檐构造、天井院坝设计钧鲜明地展现了川
+                    西人民的创新意识与实践精神。结合当地自然条件，充分利用土地资源，川西坝子的传
+                    统民居力求建设“天人合一”的宜居空间。川西民居蕴含着多彩文化，在城市现代
+                    化的快速发展的今天，我们应该竭尽全力，保护与传承这一地方建筑文化。
+
+                </p>
+                <p class="main_body_text">
+                    </p>
+            </section>
+        </div>
+
+        <!-- mountain_menu -->
+        <div class="mountain_wrap">
+            <div class="mountain_list  swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <span></span>
+                        <img src="./images/protection/20220920105809.jpg" alt="">
+                    </li>
+
+                    <li class="swiper-slide">
+                        <span></span>
+                        <img src="./images/protection/20220920105826.jpg" alt="">
+                    </li>
+
+                    <li class="swiper-slide">
+                        <span></span>
+                        <img src="./images/protection/20220920105834.jpg" alt="">
+                    </li>
+
+                    <li class="swiper-slide">
+                        <span></span>
+                        <img src="./images/protection/20220920105841.jpg" alt="">
+                    </li>
+
+                    <li class="swiper-slide">
+                        <span></span>
+                        <img src="./images/protection/20220920105846.jpg" alt="">
+                    </li>
+
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+
+
+</main>
+
+<!-- footer -->
+<footer id="global-footer">
+    <div class="container">
+        <p class="footer-text">川西木结构民居文化<br> Culture Connotation of the Traditional Western Sichuan Dwellings</p>
+        <img class="footer_img" src="./images/common/footer_icon.png" alt="footer_icon">
+    </div>
+</footer>
+
+<div id="loader">
+    <div id="loadBar" class="animated slideInLeft"></div>
+</div>
+
+<div class="scrollIndicator"></div>
+
+<script>
+
+    //Scroll事件，对每一个image_single的img添加fadeInUp动画
+    $(function () {
+        this.handleScroll = function () {
+            let currentScroll = window.pageYOffset + window.innerHeight;
+            // console.log(currentScroll);
+            //$(".imgae_single img")是一个对象数组
+            let el = $(".image_single img");
+            // console.log(el);
+            for (let i = 0; i < el.length; i++) {
+                if (el[i].offsetTop < currentScroll) {
+                    $(el[i]).addClass('animated fadeInUp');
+                    // console.log('success!');
+                } else {
+                    $(el[i]).removeClass('fadeInUp');
+                }
+            }
+        }
+        window.addEventListener('scroll', this.handleScroll, true);
+    })
+
+    //高亮事件
+    $(function () {
+        //鼠标进入的时候,其他的li标签透明度：0.5
+        $(".image_multi li").hover(function () {
+            $(this).siblings().stop().fadeTo(400, 0.5);
+        }, function () {
+            // 鼠标离开，其他li 透明度改为 1
+            $(this).siblings().stop().fadeTo(400, 1);
+        })
+    });
+
+</script>
+
+</body>
+
+</html>
